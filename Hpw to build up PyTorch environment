@@ -1,0 +1,5 @@
+1. pytorch  환경에 touchvision 을 설치했는데도 문제가 발생하는 이유는 pytorch 와 touchvision 간의 version 이 맞지 않기 때문이다.
+예를 들어 다음과 같이 하면 문제가 해결괴는 경우가 있다.
+
+  > pip uninstall torchvision
+  > pip install torchvision==0.2.2
